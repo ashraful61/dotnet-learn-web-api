@@ -3,10 +3,10 @@
 namespace WebApplication1.Controllers
 {
     [ApiController]
-    [Route("api/[Controller]")]
+    [Route("api/v1/[Controller]")]
     public class TestController : ControllerBase
     {
-        [HttpGet("Hello")]
+        [HttpGet("")]
         public IActionResult Hello()
         {
             return Ok("Hello");
